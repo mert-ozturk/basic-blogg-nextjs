@@ -9,7 +9,7 @@ import FeatureSection from "./components/FeatureSection";
 export default function Home() {
   return (
     <main  className="max-w-7xl mx-auto pt-20 px-6" >
-           <HeroSection />
+     <HeroSection />
       <FeatureSection />
       <Testimonials />
       <Pricing />

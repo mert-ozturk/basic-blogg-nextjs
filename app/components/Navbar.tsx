@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="flex items-center flex-shrink-0">
           <Link href='/'> <Image className="h-10 w-10 mr-2" src={logo} alt="Logo" to='/' />
           </Link> 
-          <Link href='/'><span className="text-xl tracking-tight">VirtualR</span></Link> 
+           <span className="text-xl tracking-tight">VirtualR</span>
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
           <Nav 
@@ -51,7 +51,7 @@ const Navbar = () => {
           </div>
         </div>
         {mobileDrawerOpen && (
-          <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+          <div className="fixed right-5 z-20 bg-neutral-800 w-[500px] p-12 flex flex-col justify-center items-center lg:hidden">
             <ul>
              <MobileNav />
             </ul>
